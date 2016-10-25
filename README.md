@@ -5,8 +5,10 @@
 To run the tests yourself, clone the repository and run the ```src/benchmark.php``` script.
 
 ```
-git clone https://github.com/php-frame/php-template-engine-benchmark.git
-php php-template-engine-benchmark/src/benchmark.php
+git clone -b develop https://github.com/php-frame/php-template-engine-benchmark.git
+cd php-template-engine-benchmark
+composer install
+php src/benchmark.php 10
 ```
 
 ## Template Engine Features
@@ -17,10 +19,10 @@ php php-template-engine-benchmark/src/benchmark.php
 |Auto-escape support|no|yes|yes|yes|yes|
 |Transparant array, object handling|yes|no|no|no|yes|
 |__Functions__||||||
-|Define reusable blocks|yes|no|yes|yes|yes|
+|Define reusable blocks|yes|maybe|yes|yes|yes|
 |__Control__||||||
 |elseif|yes|no|yes|yes|yes|
-|first, last when looping|yes|only last|yes|yes|yes|
+|first, last when looping|yes|bugger|yes|yes|yes|
 |__Inheritance__||||||
 |includes|yes|yes|yes|yes|yes|
 |includes with arguments|yes|no|yes|yes|yes|yes|

@@ -46,9 +46,9 @@ echo "PHP Template Engine Benchmark\n\n";
 
 $results = benchmarkEngines($engines, $tests, $numRuns);
 
-echo "\n" . '# Results with compile time (' . $numRuns . ' runs)' . "\n\n";
+echo "\n" . '# Results with uncompiled templates (' . $numRuns . ' runs)' . "\n\n";
 echoEngineResult($engines, $results, 'no-cache');
-echo "\n" . '# Results with cache filled with compiled templates (' . $numRuns . ' runs)' . "\n\n";
+echo "\n" . '# Results with compiled templates in cache (' . $numRuns . ' runs)' . "\n\n";
 echoEngineResult($engines, $results, 'cache');
 
 function benchmarkEngines(array $engines, array $tests, $numRuns) {
