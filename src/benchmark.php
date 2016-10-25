@@ -27,7 +27,24 @@ if (!isset($_SERVER['argv'][0])) {
     exit(1);
 } elseif (!isset($_SERVER['argv'][1])) {
     echo "PHP Template Engine Benchmark\n\n";
-    echo 'usage: php ' . $_SERVER['argv'][0] . ' <numRuns> [<engines> [<test>]]' . "\n";
+    echo 'usage: php ' . $_SERVER['argv'][0] . ' <numRuns> [<engines> [<tests>]]' . "\n\n";
+    echo '- <numRuns>: Number of runs for each test' . "\n";
+    echo '- <engines>: Comma separated list of engine names' . "\n";
+    echo '- <tests>: Comma separated list of test names' . "\n";
+    echo "\n";
+    echo 'Engines' . "\n";
+
+    foreach ($engines as $engine) {
+        echo '- ' . $engine . "\n";
+    }
+
+    echo "\nTests\n";
+
+    sort($tests);
+
+    foreach ($tests as $test) {
+        echo '- ' . str_replace('.php', '', $test) . "\n";
+    }
 
     exit(1);
 } else {
