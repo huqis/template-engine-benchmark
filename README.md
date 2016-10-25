@@ -1,5 +1,10 @@
 # PHP Template Engine Benchmark
 
+## What Does It Do?
+
+This benchmark will render a number of templates, each with a specific template functionality, for a number of times per engine.
+An average of elapsed time and memory usage is then generated and printed.
+
 ## Getting Started
 
 To run the tests yourself, clone the repository and run the ```src/benchmark.php``` script.
@@ -29,3 +34,4 @@ php src/benchmark.php 10
 |dynamic includes|yes|yes|yes|yes|yes|yes|
 |extends|yes|yes|yes|yes|yes|
 |dynamic extends|yes|yes|yes|yes|yes|
+
