@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3b4e56936d1f5b678af2224af4a352f",
-    "content-hash": "ed7e574de0fff3d14d7398dacdb6ac39",
+    "hash": "9bc836da507b9691397cd3579fa6eb72",
+    "content-hash": "050a52b0cbf1c4cee2edf929b14b4855",
     "packages": [
         {
             "name": "crodas/haanga",
@@ -82,12 +82,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-frame/frame.git",
-                "reference": "f439ab22b64d22b5798bfe70b9ceedacdf785ba4"
+                "reference": "3065bccf600de24d70ec73dc64c9761067e8c18f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-frame/frame/zipball/f439ab22b64d22b5798bfe70b9ceedacdf785ba4",
-                "reference": "f439ab22b64d22b5798bfe70b9ceedacdf785ba4",
+                "url": "https://api.github.com/repos/php-frame/frame/zipball/3065bccf600de24d70ec73dc64c9761067e8c18f",
+                "reference": "3065bccf600de24d70ec73dc64c9761067e8c18f",
                 "shasum": ""
             },
             "type": "library",
@@ -119,7 +119,7 @@
                 "source": "https://github.com/php-frame/frame/tree/develop",
                 "issues": "https://github.com/php-frame/frame/issues"
             },
-            "time": "2016-10-24 12:53:24"
+            "time": "2016-10-25 07:15:20"
         },
         {
             "name": "latte/latte",
@@ -186,77 +186,6 @@
                 "twig"
             ],
             "time": "2016-09-27 13:10:19"
-        },
-        {
-            "name": "mthaml/mthaml",
-            "version": "1.8.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/arnaud-lb/MtHaml.git",
-                "reference": "b7e0c72883ee3efcf8b8819210b90496158b00d4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/arnaud-lb/MtHaml/zipball/b7e0c72883ee3efcf8b8819210b90496158b00d4",
-                "reference": "b7e0c72883ee3efcf8b8819210b90496158b00d4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "conflict": {
-                "mthaml/mthaml-bundle": "<1.1.0"
-            },
-            "require-dev": {
-                "cebe/markdown": "~1",
-                "coffeescript/coffeescript": "~1",
-                "erusev/parsedown": "*",
-                "fluxbb/commonmark": "~1@dev",
-                "gregwar/rst": "~1",
-                "kzykhys/ciconia": "~1",
-                "leafo/lessphp": "*",
-                "leafo/scssphp": "*",
-                "league/commonmark": ">=0.9",
-                "michelf/php-markdown": "~1.3",
-                "oyejorge/less.php": "*",
-                "twig/twig": "~1.12|~2.0"
-            },
-            "suggest": {
-                "cebe/markdown": "If you want to use :markdown filter",
-                "coffeescript/coffeescript": "If you want to use :coffee or :coffeescript filter",
-                "erusev/parsedown": "If you want to use :markdown filter",
-                "fluxbb/commonmark": "If you want to use :markdown filter",
-                "gregwar/rst": "If you want to use :rest filter",
-                "kzykhys/ciconia": "If you want to use :markdown filter",
-                "leafo/lessphp": "If you want to use :less filter",
-                "leafo/scssphp": "If you want to use :scss filter",
-                "league/commonmark": "If you want to use :markdown filter",
-                "michelf/php-markdown": "If you want to use :markdown filter",
-                "oyejorge/less.php": "If you want to use :less filter",
-                "twig/twig": "If you want to use Twig templating engine"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "MtHaml\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Arnaud Le Blanc",
-                    "email": "arnaud.lb@gmail.com"
-                }
-            ],
-            "description": "HAML for PHP",
-            "homepage": "https://github.com/arnaud-lb/MtHaml",
-            "keywords": [
-                "HAML"
-            ],
-            "time": "2015-12-17 09:48:00"
         },
         {
             "name": "smarty/smarty",
