@@ -21,7 +21,7 @@ $tests = [
 ];
 
 if (!isset($_SERVER['argv'][0])) {
-    echo "<h2>PHP Template Engine Benchmark</h2>";
+    echo "<h1>PHP Template Engine Benchmark</h1>";
     echo "<p>This benchmark should be run from the terminal.</p>";
 
     exit(1);
