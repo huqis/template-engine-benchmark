@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9bc836da507b9691397cd3579fa6eb72",
-    "content-hash": "050a52b0cbf1c4cee2edf929b14b4855",
+    "hash": "cc9f5c938c24d34a90bd99a90aa5c73f",
+    "content-hash": "16f87284bdfc7643beed4a14b39db526",
     "packages": [
         {
             "name": "crodas/haanga",
@@ -38,56 +38,17 @@
             "time": "2016-02-06 07:04:31"
         },
         {
-            "name": "dwoo/dwoo",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dwoo-project/dwoo.git",
-                "reference": "c364f8a82eb1f8941783ed4c5979b8cc87b502ab"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dwoo-project/dwoo/zipball/c364f8a82eb1f8941783ed4c5979b8cc87b502ab",
-                "reference": "c364f8a82eb1f8941783ed4c5979b8cc87b502ab",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "4.8.27"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Dwoo\\": "lib/Dwoo/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "LGPL"
-            ],
-            "authors": [
-                {
-                    "name": "David Sanchez",
-                    "email": "david38sanchez@gmail.com"
-                }
-            ],
-            "description": "Dwoo is a PHP5/PHP7 template engine which is (almost) fully compatible with Smarty templates and plugins, but is written from scratch for PHP5, and adds many features.",
-            "time": "2016-09-25 14:33:14"
-        },
-        {
             "name": "frame/frame",
             "version": "dev-develop",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-frame/frame.git",
-                "reference": "3065bccf600de24d70ec73dc64c9761067e8c18f"
+                "reference": "42a4c0055dd8666ad11d3e56b3d7e334038a0329"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-frame/frame/zipball/3065bccf600de24d70ec73dc64c9761067e8c18f",
-                "reference": "3065bccf600de24d70ec73dc64c9761067e8c18f",
+                "url": "https://api.github.com/repos/php-frame/frame/zipball/42a4c0055dd8666ad11d3e56b3d7e334038a0329",
+                "reference": "42a4c0055dd8666ad11d3e56b3d7e334038a0329",
                 "shasum": ""
             },
             "type": "library",
@@ -119,7 +80,7 @@
                 "source": "https://github.com/php-frame/frame/tree/develop",
                 "issues": "https://github.com/php-frame/frame/issues"
             },
-            "time": "2016-10-25 07:15:20"
+            "time": "2016-10-26 00:30:10"
         },
         {
             "name": "latte/latte",
@@ -244,16 +205,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.26.1",
+            "version": "v1.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "a09d8ee17ac1cfea29ed60c83960ad685c6a898d"
+                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/a09d8ee17ac1cfea29ed60c83960ad685c6a898d",
-                "reference": "a09d8ee17ac1cfea29ed60c83960ad685c6a898d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
+                "reference": "3c6c0033fd3b5679c6e1cb60f4f9766c2b424d97",
                 "shasum": ""
             },
             "require": {
@@ -266,7 +227,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.26-dev"
+                    "dev-master": "1.27-dev"
                 }
             },
             "autoload": {
@@ -301,7 +262,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-10-05 18:57:41"
+            "time": "2016-10-25 19:17:17"
         }
     ],
     "packages-dev": [],
