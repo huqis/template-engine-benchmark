@@ -1,6 +1,6 @@
-{macro sayName($name)}
+{function sayName($name)}
     Hello {$name}!
-{/macro}
+{/function}
 
 {foreach $names as $name}
     {sayName($name)}
