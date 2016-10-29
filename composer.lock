@@ -43,12 +43,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-frame/frame.git",
-                "reference": "c361cc037d34c04eb43bbf2f5d6152afab03b34c"
+                "reference": "0e993907c3af504ea789ea47bd21ae4e5b1ab5ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-frame/frame/zipball/c361cc037d34c04eb43bbf2f5d6152afab03b34c",
-                "reference": "c361cc037d34c04eb43bbf2f5d6152afab03b34c",
+                "url": "https://api.github.com/repos/php-frame/frame/zipball/0e993907c3af504ea789ea47bd21ae4e5b1ab5ab",
+                "reference": "0e993907c3af504ea789ea47bd21ae4e5b1ab5ab",
                 "shasum": ""
             },
             "type": "library",
@@ -80,7 +80,7 @@
                 "source": "https://github.com/php-frame/frame/tree/develop",
                 "issues": "https://github.com/php-frame/frame/issues"
             },
-            "time": "2016-10-28 15:40:35"
+            "time": "2016-10-29 00:16:49"
         },
         {
             "name": "latte/latte",
