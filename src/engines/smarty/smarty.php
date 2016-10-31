@@ -3,7 +3,7 @@
 include __DIR__ . "/../bootstrap.php";
 
 $smarty = new Smarty();
-
+$smarty->setEscapeHtml(true);
 $smarty->setTemplateDir($directory . '/smarty/templates');
 $smarty->setCompileDir($directory . '/smarty/compile');
 

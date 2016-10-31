@@ -21,7 +21,7 @@ php src/benchmark.php 10
 ||Frame|Haanga|Latte|Smarty|Twig|
 |---|---|---|---|---|---|
 |__Variables__||||||
-|Auto-escape support|no|yes|yes|yes|yes|
+|Auto-escape support|yes|yes|yes|yes|yes|
 |Transparant array, object handling|yes|no|no|no|yes|
 |__Functions__||||||
 |Define reusable blocks|yes|maybe|yes|yes|yes|
