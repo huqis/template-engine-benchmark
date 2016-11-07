@@ -1,8 +1,8 @@
 <?php
 
 $engines = [
-    'frame',
     'haanga',
+    'huqis',
     'latte',
     'smarty',
     'twig',
