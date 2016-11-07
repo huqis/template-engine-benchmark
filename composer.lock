@@ -43,12 +43,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/huqis/huqis.git",
-                "reference": "fc369a97aa4c5ae6acc3cdaa4c2589bac85925cd"
+                "reference": "ef5dd5f50f2130f3f162c2679c6830835c4225c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/huqis/huqis/zipball/fc369a97aa4c5ae6acc3cdaa4c2589bac85925cd",
-                "reference": "fc369a97aa4c5ae6acc3cdaa4c2589bac85925cd",
+                "url": "https://api.github.com/repos/huqis/huqis/zipball/ef5dd5f50f2130f3f162c2679c6830835c4225c2",
+                "reference": "ef5dd5f50f2130f3f162c2679c6830835c4225c2",
                 "shasum": ""
             },
             "type": "library",
@@ -73,7 +73,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2016-11-07 21:03:22"
+            "time": "2016-11-07 23:07:49"
         },
         {
             "name": "latte/latte",
