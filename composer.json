@@ -1,15 +1,9 @@
 {
     "require": {
         "crodas/haanga": "^1.0",
-        "frame/frame": "dev-develop",
+        "huqis/huqis": "dev-develop",
         "smarty/smarty": "^3.1",
         "twig/twig": "^1.26",
         "latte/latte": "^2.4"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/php-frame/frame"
-        }
-    ]
+    }
 }

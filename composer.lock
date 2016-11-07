@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cc9f5c938c24d34a90bd99a90aa5c73f",
-    "content-hash": "16f87284bdfc7643beed4a14b39db526",
+    "hash": "928a4f8cb6c475a3822aba109a28bacb",
+    "content-hash": "0a797ba4cda730cde82797b6c9869f24",
     "packages": [
         {
             "name": "crodas/haanga",
@@ -38,34 +38,28 @@
             "time": "2016-02-06 07:04:31"
         },
         {
-            "name": "frame/frame",
+            "name": "huqis/huqis",
             "version": "dev-develop",
             "source": {
                 "type": "git",
-                "url": "https://github.com/php-frame/frame.git",
-                "reference": "52f0b908393be75cd3d507d6a9fb15b6f031bdae"
+                "url": "https://github.com/huqis/huqis.git",
+                "reference": "fc369a97aa4c5ae6acc3cdaa4c2589bac85925cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-frame/frame/zipball/52f0b908393be75cd3d507d6a9fb15b6f031bdae",
-                "reference": "52f0b908393be75cd3d507d6a9fb15b6f031bdae",
+                "url": "https://api.github.com/repos/huqis/huqis/zipball/fc369a97aa4c5ae6acc3cdaa4c2589bac85925cd",
+                "reference": "fc369a97aa4c5ae6acc3cdaa4c2589bac85925cd",
                 "shasum": ""
             },
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "frame\\library\\": [
+                    "huqis\\": [
                         "src/"
                     ]
                 }
             },
-            "autoload-dev": {
-                "psr-0": {
-                    "frame\\library\\": [
-                        "test/src/"
-                    ]
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -75,12 +69,11 @@
                     "email": "kayalion@kayalion.net"
                 }
             ],
-            "description": "Frame template engine",
-            "support": {
-                "source": "https://github.com/php-frame/frame/tree/develop",
-                "issues": "https://github.com/php-frame/frame/issues"
-            },
-            "time": "2016-10-31 21:48:51"
+            "description": "Huqis template engine",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2016-11-07 21:03:22"
         },
         {
             "name": "latte/latte",
@@ -269,7 +262,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "frame/frame": 20
+        "huqis/huqis": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
