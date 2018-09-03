@@ -174,7 +174,7 @@ function getTestFile($engine, $test) {
 }
 
 function echoEngineResult(array $engines, array $results, $group) {
-    $columnSizes = [25, 10, 10, 10, 12, 12, 12];
+    $columnSizes = [21, 10, 10, 10, 12, 12, 12];
     echoLineRow(7, $columnSizes);
     echoRow(array('engine', 'min time', 'max time', 'avg time', 'min mem', 'max mem', 'avg mem'), $columnSizes);
     echoLineRow(7, $columnSizes);
