@@ -1,6 +1,6 @@
 <ul>
 {% for value in scalarValues %}
-    <li>{{ value }}</li>
+    <li>{{ value }}{% if loop.first %} first{% elseif loop.last %} last{% endif %}</li>
 {% endfor %}
 </ul>
 

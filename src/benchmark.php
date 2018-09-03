@@ -1,6 +1,7 @@
 <?php
 
 $engines = [
+    'blade',
     'haanga',
     'huqis',
     'latte',
@@ -11,6 +12,7 @@ $engines = [
 $tests = [
     'empty',
     'loop-10',
+    'loop-100',
     'loop-1000',
     'functions',
     'include',
@@ -164,6 +166,7 @@ function runTest($engine, $test) {
 
 function clearCache($engine) {
     exec('rm -rf ' . __DIR__ . '/engines/' . $engine . '/compile');
+    exec('mkdir ' . __DIR__ . '/engines/' . $engine . '/compile');
 }
 
 function getTestFile($engine, $test) {

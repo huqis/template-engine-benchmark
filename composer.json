@@ -2,8 +2,9 @@
     "require": {
         "crodas/haanga": "^1.0",
         "huqis/huqis": "dev-develop",
-        "smarty/smarty": "^3.1",
-        "twig/twig": "^1.26",
-        "latte/latte": "^2.4"
+        "smarty/smarty": "^3.0",
+        "twig/twig": "^2.0",
+        "latte/latte": "^2.0",
+        "philo/laravel-blade": "3.*"
     }
 }

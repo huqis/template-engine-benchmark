@@ -18,20 +18,20 @@ php src/benchmark.php 10
 
 ## Template Engine Features
 
-||Haanga|Huqis|Latte|Smarty|Twig|
-|---|---|---|---|---|---|
-|__Variables__||||||
-|Auto-escape support|yes|yes|yes|yes|yes|
-|Transparant array, object handling|no|yes|no|no|yes|
-|__Functions__||||||
-|Define reusable blocks|maybe|yes|yes|yes|yes|
-|__Control__||||||
-|elseif|no|yes|yes|yes|yes|
-|first, last when looping|bugger|yes|yes|yes|yes|
-|__Inheritance__||||||
-|includes|yes|yes|yes|yes|yes|
-|includes with arguments|no|yes|yes|yes|yes|yes|
-|dynamic includes|yes|yes|yes|yes|yes|yes|
-|extends|yes|yes|yes|yes|yes|
-|dynamic extends|yes|yes|yes|yes|yes|
-
+||Blade|Haanga|Huqis|Latte|Smarty|Twig|
+|---|---|---|---|---|---|---|
+|__Variables__|||||||
+|Auto-escape support|yes|yes|yes|yes|yes|yes|
+|Transparant array, object handling|no|no|yes|no|no|yes|
+|__Functions__|||||||
+|Define reusable blocks|yes|maybe|yes|yes|yes|yes|
+|__Control__|||||||
+|elseif|yes|no|yes|yes|yes|yes|
+|first, last when looping|yes|bugger|yes|yes|yes|yes|
+|inline statements|no|yes|yes|yes|yes|yes|
+|__Inheritance__|||||||
+|includes|yes|yes|yes|yes|yes|yes|
+|includes with arguments|yes|no|yes|yes|yes|yes|yes|
+|dynamic includes|yes|yes|yes|yes|yes|yes|yes|
+|extends|yes|yes|yes|yes|yes|yes|
+|dynamic extends|yes|yes|yes|yes|yes|yes|

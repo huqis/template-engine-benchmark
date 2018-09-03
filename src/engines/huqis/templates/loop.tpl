@@ -30,5 +30,5 @@
         <td>{$value.object.id}</td>
         <td>{$value.object.name}</td>
     </tr>
-    {/foreach}
+{/foreach}
 </table>
